@@ -1,0 +1,53 @@
+/* header section start */
+h1 {
+    text-align: center;
+    padding-top: 90px;
+    font-size: 40px;
+}
+.span {
+    color: rgba(229, 115, 33, 0.753);
+}
+
+/* header section end */
+/* main section start */
+
+  .box {
+    background-color: rgb(194, 225, 245);
+    width: 900px;
+    height: 230px;
+    margin: 0 auto;
+    border-radius: 20px;
+  }
+  h2 {
+    padding-top: 25px;
+    padding-left: 20px;
+    font-weight: 600;
+    text-align: center;
+  }
+  .text-input {
+   margin-left: 200px;
+   margin-bottom: 15px;
+   padding: 7px;
+   width: 500px;
+  }
+  .password-input {
+    margin-left: 200px;
+    margin-bottom: 15px;
+    padding: 7px;
+    width: 500px;
+  }
+  .btn-filed{
+    margin-left: 420px ;
+    padding: 8px 17px;
+    font-size: 16px;
+    color: white;
+    background-color:  rgba(229, 115, 33, 0.753) ;
+    border: none;
+    border-radius: 7px;
+  }
+  .btn-filed:hover {
+    background-color: darkgray;
+  }
+  
+  
+/* main section end */
