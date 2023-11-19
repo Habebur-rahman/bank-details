@@ -9,12 +9,13 @@
     const passwordField = document.getElementById('input-password');
     const password = passwordField.value;
   
-    if ( email === 'abc@gmail.com'  && password === 'habib'){
+    if ( email === 'Programming@gmail.com'  && password === 'Habibur'){
         window.location.href = 'bank.html';
     }
 
     else{
-        alert('Wrong Password');
+        alert('Wrong Password'); 
+
     }
 
 

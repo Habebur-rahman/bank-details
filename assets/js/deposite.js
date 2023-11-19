@@ -4,6 +4,13 @@ document.getElementById('btn-deposit').addEventListener('click', function(){
     const depositeField = document.getElementById('input-deposite');
     const deposite = depositeField.value;
     const depositAmount = parseFloat(deposite);
+
+    depositeField.value = '';
+
+    if (isNaN(depositAmount)){
+        alert('Please provide a valid Number');
+        return;
+    }
      
     
         
@@ -23,7 +30,7 @@ document.getElementById('btn-deposit').addEventListener('click', function(){
     newBalance.innerText = totalFinalBalance;
 
 
-    depositeField.value = '';
+   
 })
 
 // deposite  section end
