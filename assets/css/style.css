@@ -51,3 +51,14 @@ h1 {
   
   
 /* main section end */
+
+/* another header section start */
+.head-3 {
+  font-size: 40px;
+  text-align: center;
+}
+
+.money {
+  color: rgba(229, 115, 33, 0.753);
+}
+/* another header section end */

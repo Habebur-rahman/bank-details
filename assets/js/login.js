@@ -1,3 +1,4 @@
+//  login section start
  document.getElementById('button').addEventListener('click', function(){
     
     const emailFiled = document.getElementById('input-email');
@@ -9,12 +10,13 @@
     const password = passwordFiled.value;
   
     if ( email === 'abc@gmail.com'  && password === 'habib'){
-        console.log('valid user');
+        window.location.href = 'bank.html';
     }
 
     else{
-        console.log('invalid user');
+        alert('Wrong Password');
     }
 
 
  })
+//  login section end
