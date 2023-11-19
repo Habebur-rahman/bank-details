@@ -1,13 +1,13 @@
 //  login section start
  document.getElementById('button').addEventListener('click', function(){
     
-    const emailFiled = document.getElementById('input-email');
-    const email = emailFiled.value;
+    const emailField = document.getElementById('input-email');
+    const email = emailField.value;
     
     
   
-    const passwordFiled = document.getElementById('input-password');
-    const password = passwordFiled.value;
+    const passwordField = document.getElementById('input-password');
+    const password = passwordField.value;
   
     if ( email === 'abc@gmail.com'  && password === 'habib'){
         window.location.href = 'bank.html';
@@ -20,3 +20,14 @@
 
  })
 //  login section end
+
+
+
+
+
+
+
+
+
+
+

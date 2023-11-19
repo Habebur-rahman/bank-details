@@ -36,7 +36,7 @@ h1 {
     padding: 7px;
     width: 500px;
   }
-  .btn-filed{
+  .btn-field{
     margin-left: 420px ;
     padding: 8px 17px;
     font-size: 16px;
@@ -45,7 +45,7 @@ h1 {
     border: none;
     border-radius: 7px;
   }
-  .btn-filed:hover {
+  .btn-field:hover {
     background-color: darkgray;
   }
   
@@ -62,3 +62,90 @@ h1 {
   color: rgba(229, 115, 33, 0.753);
 }
 /* another header section end */
+/* another main section start */
+.container {
+   display: grid;
+   grid-template-columns:repeat(3, 220px);
+   justify-content: center;
+   padding-top: 20px;
+   
+   
+}
+.box-2 {
+  background-color:rgb(80, 228, 80) ;
+  width: 200px;
+  border-radius:13px ;
+}
+.box-3 {
+  background-color:rgb(232, 232, 55) ;
+  width: 200px;
+  border-radius:13px ;
+}
+.box-4 {
+  background-color: rgb(90, 50, 129);
+  width: 200px;
+  border-radius:13px ;
+}
+h4 {
+  font-size: 20px;
+  color: white;
+  padding-left: 15px;
+}
+.doller {
+  font-size: 35px;
+  color: white;
+  
+}
+.main-body {
+  background-color: antiquewhite;
+}
+.container-2 {
+  display: grid;
+  grid-template-columns:repeat(2, 310px) ;
+  justify-content: center;
+  padding-top: 130px;
+}
+.box-5 {
+  background-color: rgb(195, 55, 195);
+  width: 240px;
+  padding: 25px;
+  border-radius: 12px;
+ 
+}
+.box-6 {
+  background-color:rgb(53, 53, 242);
+  width: 240px;
+  padding: 25px;
+  border-radius: 12px;
+}
+h5 {
+  font-size: 22px;
+  margin-top: -2px;
+  color: white;
+}
+input {
+  margin-left: 10px;
+  width: 200px;
+  padding: 5px 10px;
+  margin-bottom: 10px;
+ 
+}
+
+button {
+  margin-left: 10px;
+  background-color:gray;
+  border: none;
+  padding: 8px 15px;
+  color: white;
+  border-radius: 7px;
+  font-size: 15px;
+  
+}
+button:hover {
+  background-color: rgba(255, 106, 0, 0.822);
+}
+.span {
+  font-size: 35px;
+  color: white;
+}
+/* another main section end */
